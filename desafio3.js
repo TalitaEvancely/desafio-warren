@@ -1,7 +1,8 @@
 /*
 Desafio 3
 
-Dado um vetor de números e um número n. Determine a soma com o menor número de elementos entre os números do vetor mais próxima de n e também mostre os elementos que compõem a soma. Para criar a soma, utilize qualquer elemento do vetor uma ou mais vezes.
+Dado um vetor de números e um número n. Determine a soma com o menor número de elementos entre os números do vetor mais próxima de n e também mostre os 
+elementos que compõem a soma. Para criar a soma, utilize qualquer elemento do vetor uma ou mais vezes.
 
 Exemplo:
 
@@ -18,7 +19,8 @@ Saída de dados:
 
 Explicação:
 
-Se N = 10 e V = [2, 3, 4] você pode utilizar as seguintes soma: [2, 2, 2, 2, 2], [2, 2, 3, 3], [2, 4, 4] ou [3, 3, 4]. Como a quantidade de elementos em [2, 4, 4] e [3, 3, 4] é igual, os dois conjuntos devem ser mostrados. */
+Se N = 10 e V = [2, 3, 4] você pode utilizar as seguintes soma: [2, 2, 2, 2, 2], [2, 2, 3, 3], [2, 4, 4] ou [3, 3, 4]. 
+Como a quantidade de elementos em [2, 4, 4] e [3, 3, 4] é igual, os dois conjuntos devem ser mostrados. */
 
 
 function somaArray(numero, soma, numeroArray, retorna, contador, numeros, elementos) {
