@@ -23,7 +23,7 @@ Os três primeiros alunos chegaram no horário. Os dois últimos estavam atrasad
 
  //Resolução
 
-let limitePresentes = 3
+let minimoPresentes = 3
 let tempoChegada = [-2, -1, 0, 1, 2, 3]
 
 QtosAlunos()
@@ -35,7 +35,7 @@ function QtosAlunos() {
 
     console.log("Chegaram " + chegaram.length + " alunos no horario")
 
-    if(chegaram.length >= limitePresentes) {
+    if(chegaram.length >= minimoPresentes) {
         console.log("Aula normal")
     } else {
         console.log("Aula cancelada")
